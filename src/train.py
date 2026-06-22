@@ -154,7 +154,7 @@ def train_and_select_model() -> Pipeline:
         stratify=y,
     )
 
-    mlflow.set_tracking_uri((ROOT / "mlruns").as_uri())
+    mlflow.set_tracking_uri(str(ROOT / "mlruns"))
     mlflow.set_experiment(MLFLOW_EXPERIMENT)
 
     results: list[dict] = []

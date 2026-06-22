@@ -1,7 +1,0 @@
-age
-trestbps
-chol
-thalach
-oldpeak
-cp
-exang
