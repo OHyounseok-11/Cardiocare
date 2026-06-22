@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/dhdbs/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%97%B0%EC%8A%B5/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5/mlruns/625719433563427082/26190be2a2564f21938359b5f1bf4c56/artifacts
+end_time: 1782081008647
+entry_point_name: ''
+experiment_id: '625719433563427082'
+lifecycle_stage: active
+run_id: 26190be2a2564f21938359b5f1bf4c56
+run_name: random_forest
+run_uuid: 26190be2a2564f21938359b5f1bf4c56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782081004537
+status: 3
+tags: []
+user_id: dhdbs

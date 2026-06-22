@@ -1,0 +1,25 @@
+{
+  "model_family": "svc",
+  "random_state": 42,
+  "test_size": 0.2,
+  "selected_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "cp",
+    "exang"
+  ],
+  "metrics": {
+    "balanced_accuracy": 0.8240076518412243,
+    "precision": 0.8431372549019608,
+    "recall": 0.8431372549019608,
+    "f1": 0.8431372549019608
+  },
+  "best_params": {
+    "classifier__C": 0.5,
+    "classifier__gamma": "auto"
+  },
+  "justification": "최종 모델은 recall과 balanced accuracy를 함께 고려해 선택했다. 심장병 스크리닝에서 False Negative(질환을 정상으로 오분류)는 치료 지연으로 이어질 수 있어 recall 가중치가 높은 후보를 우선했다. svc 계열이 CV 및 테스트 balanced accuracy 0.824, recall 0.843로 가장 균형 잡힌 성능을 보였다. 튜닝 후에도 임상적으로 민감도 손실 없이 전체 정확도가 개선되었다."
+}
