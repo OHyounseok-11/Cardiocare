@@ -1,5 +1,8 @@
 name: CardioCare CI
 
+env:
+  MLFLOW_ALLOW_FILE_STORE: "true"
+
 on:
   push:
     branches: [main, master]
